@@ -76,8 +76,8 @@ const IndexPage = () => {
                   />
                 </Project>
               </div>
-              <div className="mb-4 xl:mb-14 bg-white p-6 xl:p-14 flex">
-                <div className="w-3 xl:w-6 bg-ck_blue mr-6 xl:mr-14"></div>
+              <div className="mb-4 xl:mb-14 bg-white p-4 xl:p-14 flex">
+                <div className="hidden md:block w-3 xl:w-6 bg-ck_blue mr-6 xl:mr-14"></div>
                 <div>
                   <h2 className="text-ck_blue ts-xl">Contact</h2>
                   <Separator
@@ -86,7 +86,7 @@ const IndexPage = () => {
                     underscore
                     className="mb-4 xl:mb-7"
                   />
-                  <h3 className="text-ck_blue text-2xl font-dmm">
+                  <h3 className="text-ck_blue text-xl lg:text-2xl font-dmm">
                     clementlement@gmail.com
                   </h3>
                   <span className="hidden text-ck_red"></span>
