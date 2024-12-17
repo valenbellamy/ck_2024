@@ -1,3 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-ck_yellow;
+}
+
+.ts-xl {
+  @apply font-dmm;
+  @apply text-3xl;
+  @apply md:text-4xl;
+  @apply lg:text-5xl;
+}
+
+.text-ck_red {
+  color: "#e9496f";
+}
+
+.bg-ck_red {
+  background-color: "#e9496f";
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: #083a4b;
+  stroke-width: 20px;
+  path {
+    &.path1 {
+      stroke-dasharray: 168.51425170898438;
+      stroke-dashoffset: 168.51425170898438;
+    }
+    &.path2 {
+      stroke-dasharray: 471.4984130859375;
+      stroke-dashoffset: 471.4984130859375;
+    }
+    &.path3 {
+      stroke-dasharray: 708.6033935546875;
+      stroke-dashoffset: 708.6033935546875;
+    }
+  }
+  &.--anim {
+    path {
+      transition-property: stroke-dashoffset;
+      transition-timing-function: ease-in-out;
+      stroke-dashoffset: 0;
+      &.path1 {
+        transition-duration: 0.3s;
+        transition-delay: 0.7s;
+      }
+      &.path2 {
+        transition-duration: 0.7s;
+        transition-delay: 0.3s;
+      }
+      &.path3 {
+        transition-duration: 1s;
+        transition-delay: 0s;
+      }
+    }
+  }
+}
+
+.anim-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  /*transform: scaleY(0);*/
+  transform-origin: center bottom;
+  @apply bg-ck_red;
+}
+
+.anim-wrapper.--second {
+  transition-delay: 0.1s;
+}
+
+.anim-wrapper.--third {
+  transition-delay: 0.2s;
+}
