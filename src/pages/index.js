@@ -14,8 +14,8 @@ const IndexPage = () => {
 
   useLayoutEffect(() => {
     setTriggerAnim(true);
-    gsap.from(imagesEl.current, {
-      alpha: 0,
+    gsap.to(imagesEl.current, {
+      alpha: 1,
       duration: 0.6,
       ease: "power3.inout",
     });
@@ -40,7 +40,10 @@ const IndexPage = () => {
               />
             </svg>
           </div>
-          <div className="flex flex-col md:flex-row mb-60" ref={imagesEl}>
+          <div
+            className="flex flex-col md:flex-row mb-60 opacity-0"
+            ref={imagesEl}
+          >
             <div className="w-full xl:w-half-minus-2.5 md:mr-2 xl:mr-7">
               <div className="mb-4 xl:mb-14">
                 <Project
@@ -98,7 +101,7 @@ const IndexPage = () => {
                 <Project
                   title={
                     <>
-                      jeux de cartes<br></br>illustrations
+                      jeux<br></br>illustrations
                     </>
                   }
                   to={"/projet/jeux"}

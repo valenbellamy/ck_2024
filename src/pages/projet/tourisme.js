@@ -21,7 +21,7 @@ function Tourisme() {
   return (
     <Layout headerStyle={TERTIARY}>
       <div className="bg-white">
-        <section ref={topEl} className="py-16 px-4 lg:py-24 lg:px-52">
+        <section ref={topEl} className="py-16 px-4 lg:py-36 lg:px-52">
           <h1 className="text-4xl lg:text-5xl font-dmm text-black">
             <span className="text-neutral-600">Meti </span>Cottage
           </h1>
@@ -29,7 +29,8 @@ function Tourisme() {
           <p className="mt-6 lg:mt-10 mb-4 lg:mb-16 text-2xl lg:text-3xl text-neutral-400 font-mm">
             Hotel d'éco-tourisme situé près de Tobelo dans les molluques du nord
             en Indonésie. Création de l'identité visuelle de l'établissement et
-            diffusion sur les réseaux sociaux. Création d'un guide de visite.
+            diffusion sur les réseaux sociaux. Création d'un guide de visite et
+            se fresques murale.
           </p>
           <div className="mx-auto lg:px-20 text-center">
             <StaticImage
@@ -48,6 +49,13 @@ function Tourisme() {
             />
             <StaticImage
               src="../../images/tourisme/Tourisme_3.webp"
+              alt="Graphisme pour Meti Cottage"
+              layout="constrained"
+              quality={100}
+              className="mb-4 lg:mb-16"
+            />
+            <StaticImage
+              src="../../images/tourisme/Tourisme_4.webp"
               alt="Graphisme pour Meti Cottage"
               layout="constrained"
               quality={100}

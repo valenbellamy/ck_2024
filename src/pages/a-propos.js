@@ -11,6 +11,7 @@ function AProposPage() {
   const sep1El = useRef(null);
   const sep2El = useRef(null);
   const sectionEl = useRef(null);
+  const imgEl = useRef(null);
 
   useLayoutEffect(() => {
     let tl = gsap.timeline();
@@ -21,6 +22,17 @@ function AProposPage() {
       duration: 0.6,
       ease: "power3.inout",
     })
+      .from(
+        imgEl.current,
+        {
+          y: 250,
+          skewY: 15,
+          alpha: 0,
+          duration: 0.6,
+          ease: "power3.inout",
+        },
+        "<0.2"
+      )
       .from(sep1El.current, { scaleX: 0, duration: 0.4, ease: "power3.inout" })
       .from(
         sep2El.current,
@@ -32,8 +44,8 @@ function AProposPage() {
   return (
     <>
       <Layout headerStyle={SECONDARY}>
-        <section className="py-16 px-4 lg:py-24 lg:px-52 bg-ck_yellow">
-          <div className="lg:w-1/2">
+        <section className="py-16 px-4 lg:py-24 lg:px-52 bg-ck_yellow flex flex-wrap">
+          <div className="mb-6 md:mb-0 lg:w-1/2 lg:pr-4">
             <div
               ref={sep1El}
               className="inline-block text-6xl xl:text-8xl mb-8 xl:mb-10 text-ck_blue font-mm origin-right"
@@ -51,6 +63,13 @@ function AProposPage() {
             >
               _
             </div>
+          </div>
+          <div ref={imgEl} className="w-full pt-0 md:pt-8 lg:pt-16 lg:w-1/2">
+            <StaticImage
+              src="../images/about/About_4.webp"
+              alt="Photo de Clément Karl"
+              layout="constrained"
+            />
           </div>
         </section>
         <section
@@ -147,7 +166,9 @@ function AProposPage() {
               />
             </div>
             <div>
-              <h4 className="font-mm text-ck_blue mb-1">Professionnel:</h4>
+              <h4 className="font-mm text-ck_blue mb-1">
+                Savoir faire professionnel:
+              </h4>
               <StaticImage
                 src="../images/about/About_2.webp"
                 alt="Logiciels professionnel"
@@ -160,12 +181,12 @@ function AProposPage() {
             <h3 className="text-ck_blue font-dmr text-3xl">Expériences</h3>
             <Separator color={BLUE} font="dmr" />
             <p className="font-mm text-ck_blue">
-              Création de chartes graphiques et logos, d'identités de marques.
-              Mise en page et impression sur tous types de supports.
+              Création de chartes graphiques, d'identités de marques et de
+              logos. Mise en page et impression sur tous types de supports.
               Photographie et retouche d'image. Packaging industriel.
-              Illustration à la main et sur logiciel, dessin technique. Gestion
-              de banques d'images, de bases de données et création de
-              catalogues. Storyboard
+              Illustration à la main et sur logiciel, dessin technique et
+              Storyboard. Gestion de banques d'images, de bases de données et
+              création de catalogues.
             </p>
           </div>
         </section>
@@ -173,16 +194,7 @@ function AProposPage() {
           <div className="lg:w-1/2 mb-6 md:mb-0 text-2xl">
             <h3 className="text-white font-dmr text-3xl">Contact</h3>
             <Separator color={WHITE} font="dmr" />
-            <p className="font-mm text-white">
-              clementlement@gmail.com<br></br>0627963104
-            </p>
-          </div>
-          <div className="w-full lg:w-1/2">
-            <StaticImage
-              src="../images/about/About_4.webp"
-              alt="Photo de Clément Karl"
-              layout="constrained"
-            />
+            <p className="font-mm text-white">clementlement@gmail.com</p>
           </div>
         </section>
       </Layout>

@@ -21,7 +21,7 @@ function Energie() {
   return (
     <Layout headerStyle={TERTIARY}>
       <div className="bg-white">
-        <section ref={topEl} className="py-16 px-4 lg:py-24 lg:px-52">
+        <section ref={topEl} className="py-16 px-4 lg:py-36 lg:px-52">
           <h1 className="text-4xl lg:text-5xl font-dmm text-black">
             Energie & consulting
           </h1>

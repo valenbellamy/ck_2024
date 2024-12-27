@@ -21,7 +21,7 @@ function Lucas() {
   return (
     <Layout headerStyle={TERTIARY}>
       <div className="bg-white">
-        <section ref={topEl} className="py-16 px-4 lg:py-24 lg:px-52">
+        <section ref={topEl} className="py-16 px-4 lg:py-36 lg:px-52">
           <h1 className="text-4xl lg:text-5xl font-dmm text-black">
             <span className="text-neutral-600">Lucas </span>France
           </h1>
@@ -39,6 +39,13 @@ function Lucas() {
               layout="constrained"
               quality={100}
               width={400}
+              className="mb-4 lg:mb-16"
+            />
+            <StaticImage
+              src="../../images/lucas-france/LUCAS_1B.webp"
+              alt="Graphisme pour Lucas France"
+              layout="constrained"
+              quality={100}
               className="mb-4 lg:mb-16"
             />
             <StaticImage
@@ -67,14 +74,7 @@ function Lucas() {
               alt="Graphisme pour Lucas France"
               layout="constrained"
               quality={100}
-              width={600}
               className="mb-4 lg:mb-16"
-            />
-            <StaticImage
-              src="../../images/lucas-france/LUCAS_6.webp"
-              alt="Graphisme pour Lucas France"
-              layout="constrained"
-              quality={100}
             />
           </div>
         </section>
