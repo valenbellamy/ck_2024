@@ -61,6 +61,13 @@ function Tourisme() {
               quality={100}
               className="mb-4 lg:mb-16"
             />
+            <StaticImage
+              src="../../images/tourisme/Tourisme_5.webp"
+              alt="Graphisme pour Meti Cottage"
+              layout="constrained"
+              quality={100}
+              className="mb-4 lg:mb-16"
+            />
           </div>
         </section>
       </div>

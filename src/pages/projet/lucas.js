@@ -76,6 +76,13 @@ function Lucas() {
               quality={100}
               className="mb-4 lg:mb-16"
             />
+            <StaticImage
+              src="../../images/lucas-france/LUCAS_6.webp"
+              alt="Graphisme pour Lucas France"
+              layout="constrained"
+              quality={100}
+              className="mb-4 lg:mb-16"
+            />
           </div>
         </section>
       </div>

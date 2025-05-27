@@ -105,10 +105,10 @@ const IndexPage = () => {
                     </>
                   }
                   to={"/projet/jeux"}
-                  color={BLUE}
+                  color={WHITE}
                 >
                   <StaticImage
-                    src="../images/home/2_JEUX_DE_CARTES_ILLUSTRATIONS.webp"
+                    src="../images/home/2_JEUX_DE_CARTES_ILLUSTRATIONS_2.webp"
                     alt="Couverture du projet jeux de cartes & illustrations"
                     layout="constrained"
                   />

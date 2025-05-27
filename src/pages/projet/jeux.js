@@ -113,7 +113,7 @@ function Jeux() {
             />
           </div>
           <h2 className="font-dmm text-2xl lg:text-3xl mt-6 lg:mt-10 text-black">
-            VERTICAL{" "}
+            ILLUSTRATIONS{" "}
           </h2>
           <div
             className="inline-block text-2xl lg:text-3xl font-dmr text-black"
@@ -121,12 +121,23 @@ function Jeux() {
           >
             -
           </div>
+          <p className="text-2xl lg:text-3xl text-neutral-400 font-mm">
+            Vertical : Livre d'illustrations sur le vertige en montagne.
+          </p>
           <p className="mb-4 lg:mb-16 text-2xl lg:text-3xl text-neutral-400 font-mm">
-            Livre d'illustrations sur le vertige en montagne.
+            LMB : Livre de pirates et sur une invasion de vaches
+            extraterrestres.
           </p>
           <div className="lg:px-20 mx-auto text-center">
             <StaticImage
               src="../../images/jeux/Jeu_7.webp"
+              alt="Illustration par Clément Karl"
+              layout="constrained"
+              quality={100}
+              className="mb-4 lg:mb-16"
+            />
+            <StaticImage
+              src="../../images/jeux/Jeu_8.webp"
               alt="Illustration par Clément Karl"
               layout="constrained"
               quality={100}

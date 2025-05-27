@@ -53,9 +53,9 @@ function AProposPage() {
               _
             </div>
             <p ref={textEl} className="text-ck_blue font-mm text-2xl">
-              Bonjour ! Je suis graphiste de formation et travaille actuellement
-              en tant que Responsable de la communication chez Lucas France,
-              Equipementier historique de l'automobile.
+              Salut ! Je suis graphiste depuis 10 ans et cherche à rejoindre une
+              équipe motivée et passionnée. Je suis passionné et pratiquant de
+              musique, de montagne et de jeux de rôles.
             </p>
             <div
               ref={sep2El}
@@ -84,7 +84,7 @@ function AProposPage() {
               <span className="text-white">Lucas France</span>
               <br></br>
               <span className="font-mi text-ck_yellow">
-                Septembre 2020 {">"} Aujourd’hui
+                Septembre 2020 {">"} Novembre 2024
               </span>
             </div>
             <div className="font-mm text-ck_yellow mb-4">
@@ -92,7 +92,7 @@ function AProposPage() {
               <span className="text-white">CK Design</span>
               <br></br>
               <span className="font-mi text-ck_yellow">
-                Novembre 2018 {">"} Septembre 2020
+                Juin 2014 {">"} Juillet 2015
               </span>
             </div>
             <div className="font-mm text-ck_yellow mb-4">
@@ -180,13 +180,16 @@ function AProposPage() {
           <div className="lg:w-1/2 text-xl">
             <h3 className="text-ck_blue font-dmr text-3xl">Expériences</h3>
             <Separator color={BLUE} font="dmr" />
-            <p className="font-mm text-ck_blue">
+            <p className="font-mm text-ck_blue mb-4">
               Création de chartes graphiques, d'identités de marques et de
               logos. Mise en page et impression sur tous types de supports.
               Photographie et retouche d'image. Packaging industriel.
               Illustration à la main et sur logiciel, dessin technique et
               Storyboard. Gestion de banques d'images, de bases de données et
               création de catalogues.
+            </p>
+            <p className="font-mm text-ck_blue">
+              Parle couramment l'anglais, et a des rudiments d'indonésien.
             </p>
           </div>
         </section>
