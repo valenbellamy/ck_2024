@@ -6,7 +6,7 @@ module.exports = {
     title: `Clément Karl`,
     description: `Clément Karl est un graphiste avec un goût prononcé pour les visuels épurés et le dessin.`,
     siteUrl: `https://clementkarl2924.netlify.app/`,
-    image: `/home/2_JEUX_DE_CARTES_ILLUSTRATIONS_2.webp`,
+    image: "Jeu_3.webp",
   },
   plugins: [
     "gatsby-plugin-postcss",
