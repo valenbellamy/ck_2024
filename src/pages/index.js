@@ -155,4 +155,6 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <Seo title="Accueil | Clément Karl" />;
+export const Head = () => (
+  <Seo title="Graphisme, illustration | Clément Karl" />
+);
