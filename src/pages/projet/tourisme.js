@@ -1,6 +1,7 @@
 import React, { useRef, useLayoutEffect } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { gsap } from "gsap";
+import { Link } from "gatsby";
 import Separator from "../../components/Separator";
 import Layout from "../../components/Layout";
 import { Seo } from "../../components/Seo";
@@ -68,6 +69,16 @@ function Tourisme() {
               quality={100}
               className="mb-4 lg:mb-16"
             />
+          </div>
+          <div className="text-center mt-12 lg:mt-20">
+            <h3 className="text-md font-dmr uppercase">prochain projet</h3>
+            <Link
+              to="/projet/lucas/"
+              type="button"
+              className="font-dmm text-2xl lg:text-3xl"
+            >
+              Lucas France
+            </Link>
           </div>
         </section>
       </div>
