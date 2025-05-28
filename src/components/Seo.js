@@ -27,7 +27,7 @@ export const Seo = ({ title, description, pathname, children }) => {
       ></meta>
       <meta
         name="image"
-        content="https://clementkarl2924.netlify.app/static/9e7312766bc08c23c60410ff2f3bb362/19eb8/Jeu_3.webp"
+        content="https://clementkarl.com/static/9e7312766bc08c23c60410ff2f3bb362/19eb8/Jeu_3.webp"
       />
       <meta
         property="og:title"
@@ -41,7 +41,7 @@ export const Seo = ({ title, description, pathname, children }) => {
       ></meta>
       <meta
         property="og:image"
-        content="https://clementkarl2924.netlify.app/static/9e7312766bc08c23c60410ff2f3bb362/19eb8/Jeu_3.webp"
+        content="https://clementkarl.com/static/9e7312766bc08c23c60410ff2f3bb362/19eb8/Jeu_3.webp"
         data-gatsby-head="true"
       ></meta>
       <meta

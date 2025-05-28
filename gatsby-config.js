@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Graphisme et illustration | Clément Karl`,
     description: `Clément Karl est un graphiste avec un goût prononcé pour les visuels épurés et le dessin.`,
-    siteUrl: `https://clementkarl2924.netlify.app/`,
+    siteUrl: `https://clementkarl.com/`,
     image: "/static/9e7312766bc08c23c60410ff2f3bb362/19eb8/Jeu_3.webp",
   },
   plugins: [
